@@ -1,6 +1,7 @@
-# paper-webpage-template
+# ELBO-T2IAlign-webpage
 
-This is an easy-to-use template for creating a webpage for an academic paper.
+Webpage for ELBO-T2IAlign: A Generic ELBO-Based Method for Calibrating
+Pixel-level Text-Image Alignment in Diffusion Models.Official implementation for DiffSegmenter is <a href="https://github.com/VCG-team/elbo-t2ialign">here</a>
 
 # Acknowledgements
 

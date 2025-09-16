@@ -65,19 +65,24 @@ Pixel-level Text-Image Alignment in Diffusion Models." />
               Pixel-level Text-Image Alignment in Diffusion Models.
             </h1>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Qin Zhou,</span>
-              <span class="author-block">Zhiyang Zhang,</span>
-              <span class="author-block">Jinglong Wang,</span>
-              <span class="author-block">Xiaobin Li,</span>
-              <span class="author-block">Jing Zhang<sup>*</sup>,</span>
+              <span class="author-block">Qin Zhou<sup>1</sup>,</span>
+              <span class="author-block">Zhiyang Zhang<sup>1</sup>,</span>
+              <span class="author-block">Jinglong Wang<sup>1</sup>,</span>
+              <span class="author-block">Xiaobin Li<sup>1</sup>,</span>
+              <span class="author-block">Jing Zhang<sup>1*</sup>,</span>
               <span class="author-block">Member,</span>
               <span class="author-block">IEEE,</span>
               <br> 
-              <span class="author-block">Qian Yu,</span>
-              <span class="author-block">  Lu Sheng,</span>
-              <span class="author-block"> Dong Xu,</span>
+              <span class="author-block">Qian Yu<sup>1</sup>,</span>
+              <span class="author-block">  Lu Sheng<sup>1</sup>,</span>
+              <span class="author-block"> Dong Xu<sup>2</sup>,</span>
               <span class="author-block"> Fellow,</span>
               <span class="author-block"> IEEE,</span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Beihang University,</span>
+              <span class="author-block"><sup>2</sup>The University of Hong Kong</span>
             </div>
 
             <div class="is-size-7 publication-authors">
@@ -110,6 +115,14 @@ Pixel-level Text-Image Alignment in Diffusion Models." />
                       <i class="fab fa-github"></i>
                     </span>
                     <span>Code</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/Matrix53/elbo-t2ialign" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Dataset</span>
                   </a>
                 </span>
               </div>
@@ -230,21 +243,20 @@ Pixel-level Text-Image Alignment in Diffusion Models." />
     </div>
   </section>
 
-  <section class="hero is-small">
+  <section class="hero ">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
             <div class="section-title">
               <h2 class="title is-3 is-centered">
-                More Application: Improving Image Editing And Generation
+                Better Editing 
               </h2>
             </div>
             <div class="content has-text-justified">
               <br>
               <p>
-                Our method balances the semantics of entities during generation using alignment scores to enhance text-image
-                consistency. For editing, it extracts entities from source text to generate heatmaps, which are scaled and used to
+                For editing, our method extracts entities from source text to generate heatmaps, which are scaled and used to
                 replace target cross-attention maps, enabling more accurate generation and editing.
               </p>
             </div>
@@ -254,16 +266,45 @@ Pixel-level Text-Image Alignment in Diffusion Models." />
                   <img src="static/images/editting.png" alt="Downstream Task Example 1" style="max-width: 80%; height: auto;" />
                   <p>Comparison results of image editing based on <a href="https://arxiv.org/abs/2208.01626" style="color: blue;">PTP</a> 
                   before and after calibration <br> using our ELBO-T2IAlign.</p>
-                  <img src="static/images/generate.png" alt="Downstream Task Example 2" style="max-width: 80%; height: auto;" />
-                  <p>Qualitative compositional generation results of before and after
-                  calibration <br> using our ELBO-T2IAlign.</p>
-            
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="hero  ">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div class="section-title">
+              <h2 class="title is-3 is-centered">
+                Better Generation
+              </h2>
+            </div>
+            <div class="content has-text-justified">
+              <br>
+              <p>
+                For generation, our method balances the semantics of entities during generation using alignment scores to enhance
+                text-image consistency. 
+              </p>
+            </div>
+            <div class="columns is-centered has-text-centered">
+              <div class="column">
+                <div class="publication-img">
+                  <img src="static/images/generate.png" alt="Downstream Task Example 2"
+                    style="max-width: 80%; height: auto;" />
+                  <p>Qualitative compositional generation results of before and after
+                    calibration <br> using our ELBO-T2IAlign.</p>
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
 
   <section class="section" id="BibTeX">
@@ -276,7 +317,7 @@ Pixel-level Text-Image Alignment in Diffusion Models." />
       journal={arXiv preprint arXiv:2506.09740},
       year={2025}
       }
-}</code></pre>
+  </code></pre>
     </div>
   </section>
 
