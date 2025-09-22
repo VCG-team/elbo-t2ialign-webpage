@@ -1,7 +1,7 @@
 # ELBO-T2IAlign-webpage
 
 Webpage for ELBO-T2IAlign: A Generic ELBO-Based Method for Calibrating
-Pixel-level Text-Image Alignment in Diffusion Models.Official implementation for DiffSegmenter is <a href="https://github.com/VCG-team/elbo-t2ialign">here</a>
+Pixel-level Text-Image Alignment in Diffusion Models. Official implementation for ELBO-T2IAlign is <a href="https://github.com/VCG-team/elbo-t2ialign">here</a>
 
 # Acknowledgements
 
