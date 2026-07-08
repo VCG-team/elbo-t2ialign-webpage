@@ -51,6 +51,173 @@ body {
     font-family: 'Google Sans', sans-serif;
 }
 
+.hero:first-of-type .hero-body {
+  padding-top: 3.5rem;
+  padding-bottom: 2.75rem;
+}
+
+.publication-title {
+  margin-bottom: 1.25rem !important;
+  line-height: 1.14;
+}
+
+.publication-affiliations {
+  margin-top: 0.55rem;
+}
+
+.publication-corresponding {
+  margin-top: 0.65rem;
+  color: #666;
+}
+
+.institution-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin: 1rem auto 0.9rem;
+}
+
+.institution-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  min-height: 66px;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid #e6e8ef;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(12, 30, 66, 0.06);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.institution-logo:hover {
+  border-color: #c9d3e5;
+  box-shadow: 0 10px 24px rgba(12, 30, 66, 0.1);
+  transform: translateY(-1px);
+}
+
+.institution-logo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 52px;
+  object-fit: contain;
+}
+
+.institution-logo-beihang {
+  min-width: 250px;
+}
+
+.institution-logo-beihang img {
+  max-width: 52px;
+}
+
+.institution-logo-hku {
+  min-width: 360px;
+}
+
+.institution-logo-hku img {
+  width: min(330px, 72vw);
+}
+
+.institution-logo-text {
+  color: #01519a;
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.publication-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0.85rem auto 0;
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+}
+
+.publication-status .publication-venue,
+.publication-status .publication-awards {
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  border-radius: 999px;
+  line-height: 1.2;
+}
+
+.publication-status .publication-venue {
+  padding: 0.38rem 0.85rem;
+  color: #26364f;
+  border: 1px solid #d7deeb;
+  background: #f7f9fd;
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.publication-status .publication-awards {
+  padding: 0.38rem 0.68rem;
+  color: #9b1c31;
+  border: 1px solid #f0c7cf;
+  background: #fff5f7;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.publication-link-column {
+  padding-top: 0.95rem;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .hero:first-of-type .hero-body {
+    padding-top: 2.35rem;
+    padding-bottom: 2.1rem;
+  }
+
+  .publication-title {
+    font-size: 2rem !important;
+  }
+
+  .institution-logos {
+    gap: 0.55rem;
+    margin-top: 0.85rem;
+  }
+
+  .institution-logo {
+    width: 100%;
+    max-width: 360px;
+    min-height: 56px;
+  }
+
+  .institution-logo img {
+    max-height: 44px;
+  }
+
+  .institution-logo-beihang,
+  .institution-logo-hku {
+    min-width: 0;
+  }
+
+  .institution-logo-hku img {
+    width: 100%;
+  }
+
+  .institution-logo-text {
+    font-size: 1rem;
+  }
+
+  .publication-status .publication-venue {
+    font-size: 0.9rem;
+  }
+}
+
 .publication-authors {
     font-family: 'Google Sans', sans-serif;
 }
